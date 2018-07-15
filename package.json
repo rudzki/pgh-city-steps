@@ -1,0 +1,22 @@
+{
+  "name": "pgh-city-steps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudzki/pgh-city-steps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudzki/pgh-city-steps/issues"
+  },
+  "homepage": "https://github.com/rudzki/pgh-city-steps#readme",
+  "dependencies": {
+    "d3": "^5.5.0"
+  }
+}

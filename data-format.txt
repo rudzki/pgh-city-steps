@@ -1,0 +1,66 @@
+[
+
+{ geometry: { coordinates: [Array], type: 'LineString' },
+    id: 1,
+    type: 'Feature',
+    properties:
+     { school_score: 100,
+       installed: null,
+       material: 'Concrete',
+       id: 326501686,
+       image:
+        'https://tools.wprdc.org/images/pittsburgh/steps/10_Wakefield_St.jpg',
+       total_population: 367,
+       schools_count: 0,
+       length: 53,
+       detour_score: 1,
+       number_of_steps: 8,
+       overall_score: 1,
+       transit_score: 1,
+       name: '10 Wakefield St',
+       maintenance_responsibility: '3rd Division',
+       transit_rider_count: 0 } },
+
+...
+
+]
+
+Simplify from
+============
+
+geometry [Object]
+    coordinates [Array]
+    type
+    properties [Object]
+        school_score
+        installed
+        material
+        id
+        image
+        total_population
+        schools_count
+        length
+        detour_score
+        number_of_steps
+        overall_score
+        transit_score
+        name
+        maintenance_responsibility
+        transit_rider_count
+
+Simplify To
+==
+
+staircase [Object]
+    id
+    name
+    image
+    coordinates [Array]
+    material
+    number_of_steps
+    length
+    total_population
+    transit_rider_count
+    overall_score
+    detour_score
+    transit_score
